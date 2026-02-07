@@ -1,15 +1,16 @@
+
 import Header from './Header'
 import Footer from './Footer'
-import Food from './Food'
+import Car from './Car';
 
 function App() {
   return (
     <>
       <Header />
-      <Food />
+      <Car />
       <Footer />
     </>
-  );
+  );  
 }
 
 export default App

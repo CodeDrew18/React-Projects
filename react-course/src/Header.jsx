@@ -1,21 +1,19 @@
 
 function Header() {
-
     return (
-        <header>
-            <h1>My Website</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <hr />
-        </header>
+        <nav>
+            <h1>My Website React Course</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+             <hr></hr>
+        </nav>
+       
     );
-
 }
 
 export default Header
