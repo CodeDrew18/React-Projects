@@ -7,7 +7,7 @@
 // propTypes = a mechanism that ensures that the passed value is of the correct datatype.
 //              age: propTypes.number
 
-// import PropTypes from "prop-types"
+import PropTypes from "prop-types"
 
 function Student(props) {
 
@@ -31,7 +31,7 @@ Student.propTypes = {
 
 // defaultProps
 
-Student.defaultProp = {
+Student.defaultProps = {
     name: "Guest",
     age: 0,
     isStudent: false
